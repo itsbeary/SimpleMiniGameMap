@@ -1,0 +1,5 @@
+name: CreativeTest
+version: '${project.version}'
+main: net.kealands.creativetest.CreativeTestPlugin
+api-version: 1.19
+softdepend: [GrimAC]

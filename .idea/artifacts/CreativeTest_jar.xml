@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CreativeTest:jar">
+    <output-path>E:/MinecraftServer/plugins</output-path>
+    <root id="archive" name="CreativeTest.jar">
+      <element id="module-output" name="CreativeTest" />
+    </root>
+  </artifact>
+</component>
