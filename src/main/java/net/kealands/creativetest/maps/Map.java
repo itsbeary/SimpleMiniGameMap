@@ -41,7 +41,7 @@ public class Map implements Serializable {
     public Map(String name) {
         this.name = name;
         Map map;
-        try (FileInputStream fos = new FileInputStream(CreativeTest.getPlugin().getDataFolder() + "/maps/" + name + ".keamap")) {
+        try (BufferedInputStream fos = new BufferedInputStream(new FileInputStream(CreativeTest.getPlugin().getDataFolder() + "/maps/" + name + ".keamap"))) {
             BukkitObjectInputStream oos = new BukkitObjectInputStream(fos);
             map = (Map) oos.readObject();
         } catch (Exception e) {
